@@ -7,9 +7,13 @@
 }
 
 body {
+    background-color: #f2fcf3;
     font-family: Roboto, sans-serif;
+    color: #343534;
 }
 
-nav {
+/* headers */
+
+h2, h2 {
     font-family: "Noto Sans JP", sans-serif;
 }
