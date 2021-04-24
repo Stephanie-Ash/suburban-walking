@@ -17,3 +17,29 @@ body {
 h2, h2 {
     font-family: "Noto Sans JP", sans-serif;
 }
+
+/* Header and navigation */
+
+header {
+    background-color: #1D521D;
+    width: 100%;
+}
+
+#navigation li {
+    padding: 10px;
+    font-size: 18px;
+    list-style: none;
+    display:inline-block;
+}
+
+#navigation a {
+    text-decoration: none;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #f2fcf3;
+    margin-left: 6px;
+}
+
+#navigation a:hover{
+    color: red;
+    text-decoration: underline;
+}
