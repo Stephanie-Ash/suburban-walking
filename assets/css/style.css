@@ -62,7 +62,7 @@ header {
     background-size: cover;
     background-position: center;
     text-align: center;
-    color: #343534;
+    color: #f2fcf3;
     padding-top: 20px;
 }
 
@@ -70,7 +70,7 @@ header {
 
 #introduction {
     height: 400px;
-    margin-top: 90px;
+    margin-top: 80px;
     text-align: center;
 }
 
