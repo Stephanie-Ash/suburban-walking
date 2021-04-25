@@ -54,16 +54,28 @@ header {
 
 /* Home Page Hero Image and title text */
 
-#home-hero {
+#title-section {
     width: 100%;
     height: 600px;
+    text-align: center;
+    color: #f2fcf3;
+    padding-top: 20px;
+}
+
+.home-hero {
     background-image: url(../images/lone-walker.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    color: #f2fcf3;
-    padding-top: 20px;
+}
+
+/* Routes Page Hero image */
+
+.routes-hero {
+    background-image: url(../images/walking-path.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Home page site introduction section */
