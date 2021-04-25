@@ -52,26 +52,18 @@ header {
     text-decoration: underline;
 }
 
-/* Home Page Hero Image */
+/* Home Page Hero Image and title text */
 
 #home-hero {
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-image: url(../images/lone-walker.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: brightness(80%);
-}
-
-/* Title text */
-
-#page-title {
-    color: #f2fcf3;
     text-align: center;
-    position: absolute;
-    bottom: 80%;
-    left: 36%;
+    color: #343534;
+    padding-top: 20px;
 }
 
 /* Home page site introduction section */
