@@ -47,7 +47,7 @@ header {
     margin-left: 6px;
 }
 
-#navigation a:hover{
+#navigation a:hover {
     color: red;
     text-decoration: underline;
 }
@@ -164,4 +164,46 @@ footer > p {
     margin-left: 10px;
     padding-left: 10px;
     padding-top: 5px;
+}
+
+/* Walking route pointers */
+
+#route-intro {
+    text-align: center;
+}
+
+#route-intro > h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.route-pointer {
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+    border: thin solid #343534;
+}
+
+.route-pointer img {
+    width: 100%;
+}
+
+.current {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.current a {
+    text-decoration: none;
+    color: #343534;
+}
+
+.current a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.soon {
+    display: inline-block;
+    vertical-align: top;
 }
