@@ -207,3 +207,25 @@ footer > p {
     display: inline-block;
     vertical-align: top;
 }
+
+/* Walking route pages */
+
+#walks-page {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.walks-info {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.walks-info > img {
+    width: 100%;
+}
+
+.walks-info > p {
+    text-align: justify;
+}
