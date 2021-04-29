@@ -237,3 +237,10 @@ footer > p {
 .walks-info > p {
     text-align: justify;
 }
+
+/* Club page */
+
+.club {
+    text-align: center;
+    margin-top: 20px;
+}
