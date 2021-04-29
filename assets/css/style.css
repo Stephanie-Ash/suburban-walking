@@ -244,3 +244,10 @@ footer > p {
     text-align: center;
     margin-top: 20px;
 }
+
+#club-intro {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 10px;
+}
