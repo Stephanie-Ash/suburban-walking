@@ -78,6 +78,14 @@ header {
     background-position: center;
 }
 
+/* Club Page Hero image */
+
+.club-hero {
+    background-image: url(../images/group-walking2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* Home page site introduction section */
 
 #introduction {
