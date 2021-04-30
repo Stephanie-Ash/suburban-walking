@@ -189,7 +189,7 @@ footer > p {
     width: 450px;
     height: 400px;
     margin: 20px;
-    border: thin solid #343534;
+    border: 1px solid #343534;
 }
 
 .route-pointer img {
@@ -243,6 +243,7 @@ footer > p {
 .club {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #club-intro {
@@ -250,4 +251,53 @@ footer > p {
     margin: 0 auto;
     text-align: justify;
     padding-top: 10px;
+}
+
+#club-dates {
+    margin: 0 auto;
+    text-align: left;
+    width: 600px;
+    padding-top: 10px;
+}
+
+#form-title {
+    padding-bottom: 10px;
+}
+
+form {
+    width: 500px;
+    background-color: #ddf8d7;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #343534;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #343534;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-family: Roboto, sans-serif;
+}
+
+button {
+    border: 1px solid #343534;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: #1D521D;
+    color: #f2fcf3;
+    font-size: 100%;
+}
+
+button:hover {
+    color: red;
 }
