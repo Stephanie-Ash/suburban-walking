@@ -130,16 +130,19 @@ footer > p {
 /* Home page site introduction section */
 
 #introduction {
-    height: 300px;
     margin-top: 80px;
     text-align: center;
+    margin-bottom: 80px;
+}
+
+.intro-outer {
+    display: inline-block;
 }
 
 .intro-sect {
     vertical-align: top;
     display: inline-block;
     width: 300px;
-    height: 100%;
     padding: 20px;
     text-align: left;
 }
