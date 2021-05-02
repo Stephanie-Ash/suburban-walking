@@ -370,6 +370,17 @@ button:hover {
     }
 }
 
+/* For screens from 600px wide and down */
+@media screen and (max-width: 600px){
+    .walks-info {
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+    .walks-text {
+        width: 95%;
+    }
+}
+
 /* For screens from 500px wide and down */
 @media screen and (max-width: 500px){
     .route-pointer {
