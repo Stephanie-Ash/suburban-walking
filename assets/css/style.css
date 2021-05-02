@@ -22,7 +22,7 @@ h2 {
     font-size: 1.5rem;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Noto Sans JP", sans-serif;
 }
 
@@ -58,7 +58,7 @@ nav {
     text-decoration: underline;
 }
 
-/* Home Page Hero Image and title text */
+/* Title text */
 
 #title-section {
     width: 100%;
@@ -67,6 +67,8 @@ nav {
     color: #f2fcf3;
     padding-top: 20px;
 }
+
+/* Home Page Hero image */
 
 .home-hero {
     background-image: url(../images/lone-walker.jpg);
@@ -92,6 +94,34 @@ nav {
     background-size: cover;
     background-position: center;
 }
+
+
+/* Footer and social media links */
+
+footer {
+    background-color: #1D521D;
+    width: 100%;
+    text-align: left;
+}
+
+#social-media > li {
+    display: inline;
+    margin-left: 10px;
+}
+
+#social-media i {
+    padding: 10px;
+    font-size: 25px;
+    color: #f2fcf3;
+}
+
+footer > p {
+    color: #f2fcf3;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
 /* Home page site introduction section */
 
 #introduction {
@@ -140,32 +170,6 @@ nav {
     width: 40%;
     text-align: left;
     padding-left: 20px;
-}
-
-/* Footer and social media links */
-
-footer {
-    background-color: #1D521D;
-    width: 100%;
-    text-align: left;
-}
-
-#social-media > li {
-    display: inline;
-    margin-left: 10px;
-}
-
-#social-media i {
-    padding: 10px;
-    font-size: 25px;
-    color: #f2fcf3;
-}
-
-footer > p {
-    color: #f2fcf3;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
 }
 
 /* Walking route pointers */
@@ -228,8 +232,21 @@ footer > p {
     width: 100%;
 }
 
+.walks-info > h3 {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
 .walks-info > p {
     text-align: justify;
+}
+
+.walks-info a {
+    color: #343534;
+}
+
+.walks-info a:hover {
+    color: red;
 }
 
 /* Club page */
