@@ -132,7 +132,7 @@ footer > p {
 #introduction {
     margin-top: 80px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .intro-outer {
@@ -168,16 +168,16 @@ footer > p {
     height: 100%;
     display: inline-block;
     vertical-align: top;
+    padding: 20px;
 }
 
-.walk-choice > img {
+.walk-choice img {
     height: 100%;
 }
 
 #choice-text {
     width: 40%;
     text-align: left;
-    padding-left: 20px;
 }
 
 .home-link {
@@ -336,4 +336,36 @@ button {
 
 button:hover {
     color: red;
+}
+
+/* Media queries */
+
+/* For screens from 1150px wide and down */
+@media screen and (max-width: 1150px){
+    #walk-of-month {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .walk-choice img {
+        width: 120px;
+    }
+    #choice-text {
+        width: 500px;
+    }
+}
+
+/* For screens from 700px wide and down */
+@media screen and (max-width: 700px){
+    #introduction {
+        margin-top: 40px;
+    }
+    .walk-choice {
+        width: 300px;
+    }
+    .walk-choice img {
+        width: 300px;
+    }
+    #choice-text {
+        width: 300px;
+    }
 }
