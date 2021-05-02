@@ -12,7 +12,7 @@ body {
     color: #343534;
 }
 
-/* headers */
+/* headers and paragraphs */
 
 h1 {
     font-size: 2.5rem;
@@ -24,6 +24,10 @@ h2 {
 
 h1, h2 {
     font-family: "Noto Sans JP", sans-serif;
+}
+
+p {
+    font-size: 1rem;
 }
 
 /* Navigation */
@@ -93,36 +97,24 @@ nav {
 #introduction {
     height: 300px;
     margin-top: 80px;
-    padding: 10px;
     text-align: center;
 }
 
-.intro {
+.intro-sect {
     vertical-align: top;
     display: inline-block;
-    width: 22%;
+    width: 300px;
     height: 100%;
+    padding: 20px;
     text-align: left;
 }
 
-.intro p {
-    font-size: 1rem;
+.intro-sect p {
     text-align: justify;
 }
 
-.intro-text {
-    width: 80%;
-    height: 100%;
-    float: right;
-    padding: 10px;
-}
-
-#route-image > img {
-    width: 90%;
-}
-
-#club-image > img {
-    width: 90%;
+.intro-sect > img {
+    width: 100%;
 }
 
 /* Walk of the month */
