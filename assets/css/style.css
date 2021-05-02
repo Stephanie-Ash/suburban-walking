@@ -58,6 +58,12 @@ nav {
     text-decoration: underline;
 }
 
+/* Header */
+
+header {
+    background-color: #1D521D;
+}
+
 /* Title text */
 
 #title-section {
@@ -170,6 +176,16 @@ footer > p {
     width: 40%;
     text-align: left;
     padding-left: 20px;
+}
+
+.home-link {
+    text-decoration: none;
+    color: #343534;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+    color: red;
 }
 
 /* Walking route pointers */
