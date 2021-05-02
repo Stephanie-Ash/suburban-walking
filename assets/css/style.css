@@ -369,3 +369,12 @@ button:hover {
         width: 300px;
     }
 }
+
+/* For screens from 500px wide and down */
+@media screen and (max-width: 500px){
+    .route-pointer {
+        width: 100%;
+        height: auto;
+        margin: 20px 0 20px 0;
+    }
+}
