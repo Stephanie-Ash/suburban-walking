@@ -402,6 +402,17 @@ button:hover {
     .walks-text {
         width: 95%;
     }
+
+    #title-section h1 {
+        font-size: 2rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #title-section h2 {
+        font-size: 1rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 /* For screens from 500px wide and down */
@@ -414,5 +425,12 @@ button:hover {
 
     form {
         width: 85%;
+    }
+}
+
+/* For screens from 400px wide and down */
+@media screen and (max-width: 400px){
+    #title-section h2 {
+        display: none;
     }
 }
