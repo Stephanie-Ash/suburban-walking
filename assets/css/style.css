@@ -204,10 +204,12 @@ footer > p {
 }
 
 .route-pointer {
+    background-color: rgba(197, 214, 207, 0.6);
     width: 450px;
     height: 400px;
     margin: 20px;
     border: 1px solid #343534;
+    border-bottom: 3px solid #343534;
 }
 
 .route-pointer img {
