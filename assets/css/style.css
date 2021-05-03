@@ -289,7 +289,7 @@ footer > p {
 }
 
 #club-intro {
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
     text-align: justify;
     padding-top: 10px;
@@ -302,9 +302,15 @@ footer > p {
     padding-top: 10px;
 }
 
+td {
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
 form {
     width: 500px;
-    background-color: #ddf8d7;
+    background-color: #c5d6cf;
+    border: 1px solid #343534;
     margin: 0 auto;
     padding: 20px;
     text-align: left;
@@ -319,7 +325,8 @@ input {
 }
 
 textarea {
-    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
     border: 1px solid #343534;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -370,6 +377,18 @@ button:hover {
     #choice-text {
         width: 300px;
     }
+
+    #club-intro {
+        width: 95%;
+    }
+
+    #club-dates {
+        width: 95%;
+    }
+
+    .club {
+        width: 100%;
+    }
 }
 
 /* For screens from 600px wide and down */
@@ -389,5 +408,9 @@ button:hover {
         width: 100%;
         height: auto;
         margin: 20px 0 20px 0;
+    }
+
+    form {
+        width: 85%;
     }
 }
