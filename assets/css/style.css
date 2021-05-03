@@ -109,6 +109,10 @@ footer {
     text-align: left;
 }
 
+.social {
+    display: inline-block;
+}
+
 #social-media > li {
     display: inline;
     margin-left: 10px;
@@ -122,9 +126,7 @@ footer {
 
 footer > p {
     color: #f2fcf3;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
+    margin-left: 15px;
 }
 
 /* Home page site introduction section */
