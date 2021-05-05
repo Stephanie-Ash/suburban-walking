@@ -206,7 +206,6 @@ footer > p {
 .route-pointer {
     background-color: rgba(197, 214, 207, 0.6);
     width: 450px;
-    height: 400px;
     margin: 20px;
     border: 1px solid #343534;
     border-bottom: 3px solid #343534;
@@ -365,6 +364,13 @@ button:hover {
     }
 }
 
+/* For screens from 1000px wide and down */
+@media screen and (max-width: 1000px){
+    .route-pointer {
+        width: 43%;
+    }
+}
+
 /* For screens from 700px wide and down */
 @media screen and (max-width: 700px){
     #introduction {
@@ -390,6 +396,10 @@ button:hover {
 
     .club {
         width: 100%;
+    }
+
+    .route-pointer {
+        width: 450px;
     }
 }
 
@@ -418,8 +428,7 @@ button:hover {
 /* For screens from 500px wide and down */
 @media screen and (max-width: 500px){
     .route-pointer {
-        width: 100%;
-        height: auto;
+        width: 95%;
         margin: 20px 0 20px 0;
     }
 
