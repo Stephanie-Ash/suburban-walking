@@ -356,11 +356,20 @@ button:hover {
         height: auto;
         margin-bottom: 10px;
     }
+
     .walk-choice img {
         width: 120px;
     }
+
     #choice-text {
         width: 500px;
+    }
+}
+
+/* For screens from 1090px wide and down */
+@media screen and (max-width: 1090px){
+    .walks-info {
+        width: 70%;
     }
 }
 
@@ -376,12 +385,15 @@ button:hover {
     #introduction {
         margin-top: 40px;
     }
+
     .walk-choice {
         width: 300px;
     }
+
     .walk-choice img {
         width: 300px;
     }
+
     #choice-text {
         width: 300px;
     }
@@ -401,6 +413,10 @@ button:hover {
     .route-pointer {
         width: 450px;
     }
+
+    .walks-info {
+        width: 80%;
+    }
 }
 
 /* For screens from 600px wide and down */
@@ -409,6 +425,7 @@ button:hover {
         width: 100%;
         padding: 20px 0 20px 0;
     }
+
     .walks-text {
         width: 95%;
     }
@@ -418,6 +435,7 @@ button:hover {
         padding-left: 5px;
         padding-right: 5px;
     }
+    
     #title-section h2 {
         font-size: 1rem;
         padding-left: 5px;
