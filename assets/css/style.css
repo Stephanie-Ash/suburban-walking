@@ -423,6 +423,10 @@ button:hover {
         padding-left: 5px;
         padding-right: 5px;
     }
+
+    form {
+        width: 85%;
+    }
 }
 
 /* For screens from 500px wide and down */
@@ -430,10 +434,6 @@ button:hover {
     .route-pointer {
         width: 95%;
         margin: 20px 0 20px 0;
-    }
-
-    form {
-        width: 85%;
     }
 }
 
