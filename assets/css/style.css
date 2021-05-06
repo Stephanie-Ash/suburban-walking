@@ -363,6 +363,13 @@ button:hover {
     }
 }
 
+/* For screens from 1100px wide and down */
+@media screen and (max-width: 1100px){
+    .walks-info {
+        width: 70%;
+    }
+}
+
 /* For screens from 1045px wide and down */
 @media screen and (max-width: 1045px){
     #group-pic {
@@ -370,15 +377,8 @@ button:hover {
     }
 }
 
-/* For screens from 1090px wide and down */
-@media screen and (max-width: 1090px){
-    .walks-info {
-        width: 70%;
-    }
-}
-
-/* For screens from 1000px wide and down */
-@media screen and (max-width: 1000px){
+/* For screens from 1005px wide and down */
+@media screen and (max-width: 1005px){
     .route-pointer {
         width: 43%;
     }
