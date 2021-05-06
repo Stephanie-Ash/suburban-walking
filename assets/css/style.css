@@ -396,8 +396,8 @@ button:hover {
     }
 }
 
-/* For screens from 700px wide and down */
-@media screen and (max-width: 700px){
+/* For screens from 735px wide and down */
+@media screen and (max-width: 735px){
     #club-intro {
         width: 95%;
     }
@@ -409,7 +409,10 @@ button:hover {
     .club {
         width: 100%;
     }
+}
 
+/* For screens from 700px wide and down */
+@media screen and (max-width: 700px){
     .route-pointer {
         width: 450px;
     }
