@@ -132,7 +132,7 @@ footer > p {
 /* Home page site introduction section */
 
 #introduction {
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -350,10 +350,18 @@ button:hover {
 
 /* Media queries */
 
+/* For screens from 1370px wide and down */
+@media screen and (max-width: 1370px){
+    #group-pic {
+        display: none;
+    }
+}
+
 /* For screens from 1150px wide and down */
 @media screen and (max-width: 1150px){
     #walk-of-month {
         height: auto;
+        width: 100%;
         margin-bottom: 10px;
     }
 
@@ -363,6 +371,13 @@ button:hover {
 
     #choice-text {
         width: 500px;
+    }
+}
+
+/* For screens from 1030px wide and down */
+@media screen and (max-width: 1030px){
+    #group-pic {
+        display: inherit;
     }
 }
 
@@ -380,24 +395,23 @@ button:hover {
     }
 }
 
-/* For screens from 700px wide and down */
-@media screen and (max-width: 700px){
-    #introduction {
-        margin-top: 40px;
-    }
-
+/* For screens from 705px wide and down */
+@media screen and (max-width: 705px){
     .walk-choice {
         width: 300px;
     }
 
     .walk-choice img {
-        width: 300px;
+        width: 100%;
     }
 
     #choice-text {
-        width: 300px;
+        width: 100%;
     }
+}
 
+/* For screens from 700px wide and down */
+@media screen and (max-width: 700px){
     #club-intro {
         width: 95%;
     }
@@ -416,6 +430,32 @@ button:hover {
 
     .walks-info {
         width: 80%;
+    }
+}
+
+/* For screens from 685px wide and down */
+@media screen and (max-width: 685px){
+    #introduction {
+        margin-top: 40px;
+    }
+
+    .intro-sect {
+        width: 80%;
+    }
+
+    .walk-choice {
+        background-color: green;
+        width: 100%;
+    }
+
+    .walk-choice img {
+        width: 80%;
+        background-color: red;
+    }
+
+    #choice-text {
+        width: 80%;
+    
     }
 }
 
