@@ -132,9 +132,9 @@ footer > p {
 /* Home page site introduction section */
 
 #introduction {
-    margin-top: 60px;
+    margin-top: 50px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .intro-outer {
@@ -160,16 +160,15 @@ footer > p {
 /* Walk of the month */
 
 #walk-of-month {
-    height: 150px;
     width: 100%;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .walk-choice {
-    height: 100%;
+    height: 150px;
     display: inline-block;
     vertical-align: top;
+    margin-bottom: 20px;
     padding: 20px;
 }
 
@@ -177,7 +176,7 @@ footer > p {
     height: 100%;
 }
 
-#choice-text {
+.choice-text {
     width: 40%;
     text-align: left;
 }
@@ -350,8 +349,8 @@ button:hover {
 
 /* Media queries */
 
-/* For screens from 1370px wide and down */
-@media screen and (max-width: 1370px){
+/* For screens from 1390px wide and down */
+@media screen and (max-width: 1390px){
     #group-pic {
         display: none;
     }
@@ -359,23 +358,13 @@ button:hover {
 
 /* For screens from 1150px wide and down */
 @media screen and (max-width: 1150px){
-    #walk-of-month {
-        height: auto;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .walk-choice img {
-        width: 120px;
-    }
-
-    #choice-text {
+    .choice-text {
         width: 500px;
     }
 }
 
-/* For screens from 1030px wide and down */
-@media screen and (max-width: 1030px){
+/* For screens from 1045px wide and down */
+@media screen and (max-width: 1045px){
     #group-pic {
         display: inherit;
     }
@@ -395,17 +384,14 @@ button:hover {
     }
 }
 
-/* For screens from 705px wide and down */
-@media screen and (max-width: 705px){
+/* For screens from 715px wide and down */
+@media screen and (max-width: 715px){
     .walk-choice {
         width: 300px;
+        height: auto;
     }
 
     .walk-choice img {
-        width: 100%;
-    }
-
-    #choice-text {
         width: 100%;
     }
 }
@@ -431,12 +417,10 @@ button:hover {
     .walks-info {
         width: 80%;
     }
-}
 
-/* For screens from 685px wide and down */
-@media screen and (max-width: 685px){
     #introduction {
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .intro-sect {
@@ -444,18 +428,12 @@ button:hover {
     }
 
     .walk-choice {
-        background-color: green;
-        width: 100%;
+        width: 80%;
+        margin: 0;
     }
 
-    .walk-choice img {
-        width: 80%;
-        background-color: red;
-    }
-
-    #choice-text {
-        width: 80%;
-    
+    .choice-text {
+        margin-bottom: 10px;
     }
 }
 
@@ -468,6 +446,24 @@ button:hover {
 
     .walks-text {
         width: 95%;
+    }
+
+    .intro-sect {
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+
+    .intro-text {
+        width: 95%;
+    }
+
+    .walk-choice {
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+
+    .choice-text {
+       width: 95%;
     }
 
     #title-section h1 {
