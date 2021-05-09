@@ -10,21 +10,64 @@ This is a website providing information on walking routes in the South-East Lond
 
 ### Existing Features
 
-* Navigation Bar
+* **Navigation Bar**
     * The navigation bar is found on all pages for easy navigation to the important parts of the site without using the browser navigation buttons.
     * It is identical and in the same location on all pages maing it easy for the user to locate.
     * It is intended that that site will expand over time with additional walking routes added. A summary Routes page is therefore linked to on the navigation bar instead of individual routes to avoid the navigation bar becoming too busy and confusing.
 
 ![Navigation Bar](screenshots/suburban-walking-navigation.jpg)
 
-* Hero Images
+* **Hero Images**
     * The main page images for each section of the site are appropriate for the section in question and give a visual representation of what the page covers.
     * The images occupy the same space on each page and all show the main heading and tagline thus providing consistent design across the site.
     * All images are consistent with the theme and purpose of the site.
 
 ![Hero Images](screenshots/suburban-walking-hero-images.jpg)
 
-* ### User Stories
+* **Site Introduction Section**
+    * The homepage site introduction section introduces the two functions of the site.
+    * It quickly let's the user know the purpose of the site and the information it provides and encourages the user to explore further.
+    * The links provide easy access to the other parts of the site.
+
+![Site Introduction](screenshots/suburban-walking-site-introduction.jpg)
+
+* **Route of The Month Section**
+    * This section provides an introduction to one of the walking routes detailed on the site.
+    * It catches the users attention and sparks their interest. It also shows that the site is frequently updated ensuring return visits.
+
+![Route of the Month](screenshots/suburban-walking-route-of-month.jpg)
+
+* **Route Pointers**
+    * The route pointers page provides navigation links to the various walking routes pages.
+    * It allows the user to easily navigate to the route they are interested in. It also provides a teaser of future content.
+    * Having a dedicated routes page avoids clutter on the homepage as the site expands and more routes are added.
+
+![Routes Page](screenshots/suburban-walking-routes.jpg)
+
+* **Route Pages**
+    * The individual route pages provide information about specific routes.
+    * They are laid out in sections so that the user can easily search out the information they require.
+    * The images provide added context and the embedded map can be used by the user when walking a route.
+
+![Route Information](screenshots/suburban-walking-individual-route.jpg)
+
+* **Club Page**
+    * The club page allows the user to find out useful information about the walking club and to sign up.
+    * The user will be asked to submit their name, email address and phone number. They also have the option to suggest a walking route allowing the site owner to collect ideas for possible new routes to add to the site.
+
+![Club Page](screenshots/suburban-walking-club.jpg)
+
+* **Colour Scheme**
+    * Various shades of green have been used throughout the site to reflect the natural world and to tie in with the theme of the site, the idea of rural style walking.
+
+### Features Left to Implement
+
+* **Interactive and Customizable Maps**
+    * In the future more complex interactive maps could be added which allow the user to choose from a list of plotted walking routes.
+    * The user would be about to edit or combine the plotted routes to create their own custom route.
+    * Step by step instructions on how to navigate the route could also be provided.
+
+### User Stories
   1. As someone new to walking, I want to find clear information about interesting routes with details on how they can be adapted for various abilities.
       * Upon entering the site the user is greeted with a clear homepage with an easily found navigation bar providing quick access to the routes page. The routes page can also be navigated to via the introductory text.
       * The Routes page clearly sets out the routes available and provides easy linked navigation for more information on the selected route.
@@ -37,3 +80,7 @@ This is a website providing information on walking routes in the South-East Lond
       * The navigation features already described allow the user to easily access the information they require.
       * Social media links are found in the footer of every page and will open on a new page allowing the user to navigate to the social media pages.
       * The suggested 'Walk of the Month' on the homepage tells the user that the site is regularly update and gives an incentive for a return visit. The 'Coming Soon' section of the Routes page provides a teaser of what is to come and also provides incentive for a return visit.
+
+### Wireframes
+
+* Desktop view wireframes - [View](wireframes/suburban-walking-desktop-view.pdf)
