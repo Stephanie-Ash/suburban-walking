@@ -15,6 +15,15 @@ This is a website providing information on walking routes in the South-East Lond
     * It is identical and in the same location on all pages maing it easy for the user to locate.
     * It is intended that that site will expand over time with additional walking routes added. A summary Routes page is therefore linked to on the navigation bar instead of individual routes to avoid the navigation bar becoming too busy and confusing.
 
+![Navigation Bar](screenshots/suburban-walking-navigation.jpg)
+
+* Hero Images
+    * The main page images for each section of the site are appropriate for the section in question and give a visual representation of what the page covers.
+    * The images occupy the same space on each page and all show the main heading and tagline thus providing consistent design across the site.
+    * All images are consistent with the theme and purpose of the site.
+
+![Hero Images](screenshots/suburban-walking-hero-images.jpg)
+
 * ### User Stories
   1. As someone new to walking, I want to find clear information about interesting routes with details on how they can be adapted for various abilities.
       * Upon entering the site the user is greeted with a clear homepage with an easily found navigation bar providing quick access to the routes page. The routes page can also be navigated to via the introductory text.
