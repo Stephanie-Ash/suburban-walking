@@ -276,6 +276,11 @@ footer > p {
     color: red;
 }
 
+.walks-info > iframe {
+    width: 100%;
+    overflow: hidden;
+}
+
 /* Club page */
 
 .club {
