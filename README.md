@@ -111,7 +111,7 @@ This is a website providing information on walking routes in the South-East Lond
     * The inline block style of wider screens, with text displayed alongside images reverts to text below images block style on smaller screens.
     * Media queries have been added to ensure the site displays well at the transition points between the two styles.
 * Friends and family members were asked to review the site on various mobile devices to determine if the site was suitably responsive.
-    * The iframe maps were discovered to extend beyond the screen due to the fixed width in the html iframe code and this was updated to be more responsive.
+    * The iframe maps were discovered to extend beyond the screen due to the fixed width in the HTML iframe code and this was updated to be more responsive.
 
 ### Validator Testing
 
@@ -141,7 +141,7 @@ The project was deployed to GitHub Pages. The following steps are used to deploy
 * The icons in the nav bar and footer were taken from [Font Awesome](https://fontawesome.com/).
 *  Instructions on how to use social media icons in the footer were taken from the Code Institute 'Love Running' walkthrough project.
 * The walking route iframe maps were created using [mapometer](https://gb.mapometer.com/).
-* Instructions on how to maje the textarea form input responsive were found [here](https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport/39068155#:~:text=Set%20a%20max%2Dwidth%20on%20the%20element.&text=Try%20textarea%20%7Bmax%2Dwidth%3A,will%20always%20fit%20your%20display.&text=I%20set%20the%20number%20of,responsive%20to%20the%20screen%20size.)
+* Instructions on how to make the textarea form input responsive were found [here](https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport/39068155#:~:text=Set%20a%20max%2Dwidth%20on%20the%20element.&text=Try%20textarea%20%7Bmax%2Dwidth%3A,will%20always%20fit%20your%20display.&text=I%20set%20the%20number%20of,responsive%20to%20the%20screen%20size.)
 
 ### Media
 * The homepage hero image was taken from [Pexels](https://www.pexels.com/)
