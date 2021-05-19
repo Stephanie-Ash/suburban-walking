@@ -47,7 +47,8 @@ This is a website providing information on walking routes in the South-East Lond
 * **Route Pages**
     * The individual route pages provide information about specific routes.
     * They are laid out in separately titled sections so that the user can easily search out the information they require.
-    * The images provide added context and the embedded map can be used by the user when walking a route.
+    * The images provide added context.
+    * The embedded interactive map provides a suggested route and can be used by the user to navigate whilst out walking.
 
 ![Route Information](assets/screenshots/suburban-walking-individual-route.jpg)
 
@@ -74,7 +75,7 @@ This is a website providing information on walking routes in the South-East Lond
     * The user would be able to edit or combine the plotted routes to create their own custom route.
     * Step by step instructions on how to navigate the route could also be provided.
 
-### User Stories
+### Tested User Stories
   1. As someone new to walking, I want to find clear information about interesting routes with details on how they can be adapted for various abilities.
       * Upon entering the site the user is greeted with a clear homepage with an easily found navigation bar providing quick access to the routes page. The routes page can also be navigated to via the introductory text.
       * The Routes page clearly sets out the routes available and provides easy linked navigation for more information on the selected route.
@@ -105,18 +106,19 @@ This is a website providing information on walking routes in the South-East Lond
 ## Testing
 
 * Continuous testing was carried out throughout the development process with display or functionality errors corrected as they appeared.
-* The header title text was redesigned after it was discovered the initial absolute placement in relation to the hero image resulted in the text disappearing on smaller screens.
+* The header title text was redesigned after it was discovered the initial absolute placement in relation to the hero image resulted in the text disappearing on smaller screens. The heading was updated to be included in the same div as the image.
+* The form textarea element was found to extend outside the form border on smaller screens. This was fixed after consulting [Stack Overflow](https://stackoverflow.com/) by setting the box-sizing to border-box.
 * The site was viewed and tested on the Google Chrome, Microsoft Edge, Internet Explorer and Safari browsers.
 * The site was tested on various screen sizes using the Chrome Developer tools.
     * The inline block style of wider screens, with text displayed alongside images reverts to text below images block style on smaller screens.
-    * Media queries have been added to ensure the site displays well at the transition points between the two styles. Reducing white space where possible.
+    * Media queries have been added to ensure the site displays well at the transition points between the two styles, reducing white space where possible.
 * Friends and family members were asked to review the site on various mobile devices to determine if the site was suitably responsive.
-    * The iframe maps were discovered to extend beyond the screen due to the fixed width in the HTML iframe code and this was updated to a percentage width of the container to be more responsive.
+    * The iframe maps were discovered to extend beyond the screen resulting in scrolling being required. This was dicovered to be due to the fixed width in the HTML iframe code and this was updated to a percentage width of the container to be more responsive.
 
 ### Validator Testing
 
 * HTML
-    * When pasing the individual routes pages through the [W3C validator](https://validator.w3.org/) issues were identified with the iframe maps. These have been solved by moving some of the iframe styling including width and scrolling to the CSS stylesheet.
+    * When pasing the individual routes pages through the [W3C validator](https://validator.w3.org/) issues were identified with the iframe maps. These have been solved by moving some of the iframe styling including the percentage width and scrolling to the CSS stylesheet.
     * No errors are now returned for all pages.
 * CSS
     * No errors have been found when passing through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
@@ -144,15 +146,15 @@ The project was deployed to GitHub Pages. The following steps are used to deploy
 * The walking route iframe maps were created using [mapometer](https://gb.mapometer.com/).
 * Instructions on how to make the textarea form input responsive were found [here](https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport/39068155#:~:text=Set%20a%20max%2Dwidth%20on%20the%20element.&text=Try%20textarea%20%7Bmax%2Dwidth%3A,will%20always%20fit%20your%20display.&text=I%20set%20the%20number%20of,responsive%20to%20the%20screen%20size.).
 * Information about the Green Chain Walk was taken from [Wikipedia](https://en.wikipedia.org/wiki/South_East_London_Green_Chain).
-* Information about the Waterlink Way was taken from [Sustrans](https://www.sustrans.org.uk/find-a-route-on-the-national-cycle-network/waterlink-way)
+* Information about the Waterlink Way was taken from [Sustrans](https://www.sustrans.org.uk/find-a-route-on-the-national-cycle-network/waterlink-way).
 
 ### Media
-* The homepage hero image was taken from [Pexels](https://www.pexels.com/)
+* The homepage hero image was taken from [Pexels](https://www.pexels.com/).
 * The Routes pages hero image was taken by Achim Bongard and found on [Pexels](https://www.pexels.com/).
 * The club page hero image was taken by Bonnie Kittle and found on [Unsplash](https://unsplash.com/).
 * The homepage routes introductory image was taken by Tobi and found on [Pexels](https://www.pexels.com/).
 * The homepage club introductory image was taken by Ashim D'Silva and found on [Unsplash](https://unsplash.com/).
-* All other photos are my own.
+* All other images are my own.
 
 ### Other
 * The wireframes for the project were created using [Balsamiq](https://balsamiq.com/wireframes/desktop/).
