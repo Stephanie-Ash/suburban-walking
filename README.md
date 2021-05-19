@@ -4,7 +4,7 @@ This is a website providing information on walking routes in the South-East Lond
 
 [The live project can be found here.](https://stephanie-ash.github.io/suburban-walking/)
 
-![Responsive Site](screenshots/suburban-walking-responsive.jpg)
+![Responsive Site](assets/screenshots/suburban-walking-responsive.jpg)
 
 ## Features
 
@@ -15,54 +15,54 @@ This is a website providing information on walking routes in the South-East Lond
     * It is identical and in the same location on all pages making it easy for the user to locate.
     * It is intended that that site will expand over time with additional walking routes added. A summary Routes page is therefore linked to on the navigation bar instead of individual routes to avoid the navigation bar becoming too busy and confusing.
 
-![Navigation Bar](screenshots/suburban-walking-navigation.jpg)
+![Navigation Bar](assets/screenshots/suburban-walking-navigation.jpg)
 
 * **Hero Images**
     * The main page images for each section of the site are appropriate for the section in question and give a visual representation of what the page covers.
     * The images occupy the same space on each page and all show the main heading and tagline thus providing consistent design across the site.
     * All images are consistent with the theme and purpose of the site.
 
-![Hero Images](screenshots/suburban-walking-hero-images.jpg)
+![Hero Images](assets/screenshots/suburban-walking-hero-images.jpg)
 
 * **Site Introduction Section**
     * The homepage site introduction section introduces the two functions of the site.
     * It quickly let's the user know the purpose of the site and the information it provides, and encourages the user to explore further.
     * The links provide easy access to the other parts of the site.
 
-![Site Introduction](screenshots/suburban-walking-site-introduction.jpg)
+![Site Introduction](assets/screenshots/suburban-walking-site-introduction.jpg)
 
 * **Route of The Month Section**
     * This section provides an introduction to one of the walking routes detailed on the site.
     * It catches the users attention and sparks their interest. It also shows that the site is frequently updated ensuring return visits.
 
-![Route of the Month](screenshots/suburban-walking-route-of-month.jpg)
+![Route of the Month](assets/screenshots/suburban-walking-route-of-month.jpg)
 
 * **Route Pointers**
     * The route pointers page provides navigation links to the various walking routes pages.
     * It allows the user to easily navigate to the route they are interested in. It also provides a teaser of future content.
     * Having a dedicated routes page avoids clutter on the homepage as the site expands and more routes are added.
 
-![Routes Page](screenshots/suburban-walking-routes.jpg)
+![Routes Page](assets/screenshots/suburban-walking-routes.jpg)
 
 * **Route Pages**
     * The individual route pages provide information about specific routes.
-    * They are laid out in sections so that the user can easily search out the information they require.
+    * They are laid out in separately titled sections so that the user can easily search out the information they require.
     * The images provide added context and the embedded map can be used by the user when walking a route.
 
-![Route Information](screenshots/suburban-walking-individual-route.jpg)
+![Route Information](assets/screenshots/suburban-walking-individual-route.jpg)
 
 * **Club Page**
     * The club page allows the user to find out useful information about the walking club and to sign up.
     * The user will be asked to submit their name, email address and phone number. They also have the option to suggest a walking route allowing the site owner to collect ideas for possible new routes to add to the site.
 
-![Club Page](screenshots/suburban-walking-club.jpg)
+![Club Page](assets/screenshots/suburban-walking-club.jpg)
 
 * **The Footer**
     * The footer section provides links to the social media sites for Suburban Walking.
     * It is located at the same place on every page making it easy to find and the links open in a new tab providing easy navigation for the user.
     * The footer encourages the user to keep updated on the site via the social media pages and so encourages continued engagement.
 
-![Footer](screenshots/suburban-walking-footer.jpg)
+![Footer](assets/screenshots/suburban-walking-footer.jpg)
 
 * **Colour Scheme**
     * Various shades of green have been used throughout the site to reflect the natural world and to tie in with the theme of the site, that being the idea of rural style walking.
@@ -91,16 +91,16 @@ This is a website providing information on walking routes in the South-East Lond
 ### Wireframes
 
 * Desktop view wireframes
-    * Homepage - [View](wireframes/suburban-walking-home-desktop.jpg)
-    * Routes - [View](wireframes/suburban-walking-routes-desktop.jpg)
-    * Individual route page - [View](wireframes/suburban-walking-individual-route-desktop.jpg)
-    * Club - [View](wireframes/suburban-walking-club-desktop.jpg)
+    * Homepage - [View](assets/wireframes/suburban-walking-home-desktop.jpg)
+    * Routes - [View](assets/wireframes/suburban-walking-routes-desktop.jpg)
+    * Individual route page - [View](assets/wireframes/suburban-walking-individual-route-desktop.jpg)
+    * Club - [View](assets/wireframes/suburban-walking-club-desktop.jpg)
 
 * Mobile view wireframes
-    * Homepage - [View](wireframes/suburban-walking-home-mobile.jpg)
-    * Routes - [View](wireframes/suburban-walking-routes-mobile.jpg)
-    * Individual route page - [View](wireframes/suburban-walking-individual-route-mobile.jpg)
-    * Club - [View](wireframes/suburban-walking-club-mobile.jpg)
+    * Homepage - [View](assets/wireframes/suburban-walking-home-mobile.jpg)
+    * Routes - [View](assets/wireframes/suburban-walking-routes-mobile.jpg)
+    * Individual route page - [View](assets/wireframes/suburban-walking-individual-route-mobile.jpg)
+    * Club - [View](assets/wireframes/suburban-walking-club-mobile.jpg)
 
 ## Testing
 
@@ -109,14 +109,14 @@ This is a website providing information on walking routes in the South-East Lond
 * The site was viewed and tested on the Google Chrome, Microsoft Edge, Internet Explorer and Safari browsers.
 * The site was tested on various screen sizes using the Chrome Developer tools.
     * The inline block style of wider screens, with text displayed alongside images reverts to text below images block style on smaller screens.
-    * Media queries have been added to ensure the site displays well at the transition points between the two styles.
+    * Media queries have been added to ensure the site displays well at the transition points between the two styles. Reducing white space where possible.
 * Friends and family members were asked to review the site on various mobile devices to determine if the site was suitably responsive.
-    * The iframe maps were discovered to extend beyond the screen due to the fixed width in the HTML iframe code and this was updated to be more responsive.
+    * The iframe maps were discovered to extend beyond the screen due to the fixed width in the HTML iframe code and this was updated to a percentage width of the container to be more responsive.
 
 ### Validator Testing
 
 * HTML
-    * When pasing the individual routes pages through the [W3C validator](https://validator.w3.org/) issues were identified with the iframe maps. These have been solved by moving some of the iframe styling to the CSS stylesheet.
+    * When pasing the individual routes pages through the [W3C validator](https://validator.w3.org/) issues were identified with the iframe maps. These have been solved by moving some of the iframe styling including width and scrolling to the CSS stylesheet.
     * No errors are now returned for all pages.
 * CSS
     * No errors have been found when passing through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
@@ -139,9 +139,12 @@ The project was deployed to GitHub Pages. The following steps are used to deploy
 ### Content
 * The 'Roboto' and 'Noto Sans JP' fonts were taken from [Google Fonts](https://fonts.google.com/).
 * The icons in the nav bar and footer were taken from [Font Awesome](https://fontawesome.com/).
+* The images were compressed to improve the speed of the website using [TinyPNG](https://tinypng.com/).
 *  Instructions on how to use social media icons in the footer were taken from the Code Institute 'Love Running' walkthrough project.
 * The walking route iframe maps were created using [mapometer](https://gb.mapometer.com/).
-* Instructions on how to make the textarea form input responsive were found [here](https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport/39068155#:~:text=Set%20a%20max%2Dwidth%20on%20the%20element.&text=Try%20textarea%20%7Bmax%2Dwidth%3A,will%20always%20fit%20your%20display.&text=I%20set%20the%20number%20of,responsive%20to%20the%20screen%20size.)
+* Instructions on how to make the textarea form input responsive were found [here](https://stackoverflow.com/questions/39068128/how-can-i-make-a-textarea-that-fits-within-the-width-of-the-current-viewport/39068155#:~:text=Set%20a%20max%2Dwidth%20on%20the%20element.&text=Try%20textarea%20%7Bmax%2Dwidth%3A,will%20always%20fit%20your%20display.&text=I%20set%20the%20number%20of,responsive%20to%20the%20screen%20size.).
+* Information about the Green Chain Walk was taken from [Wikipedia](https://en.wikipedia.org/wiki/South_East_London_Green_Chain).
+* Information about the Waterlink Way was taken from [Sustrans](https://www.sustrans.org.uk/find-a-route-on-the-national-cycle-network/waterlink-way)
 
 ### Media
 * The homepage hero image was taken from [Pexels](https://www.pexels.com/)
@@ -150,3 +153,7 @@ The project was deployed to GitHub Pages. The following steps are used to deploy
 * The homepage routes introductory image was taken by Tobi and found on [Pexels](https://www.pexels.com/).
 * The homepage club introductory image was taken by Ashim D'Silva and found on [Unsplash](https://unsplash.com/).
 * All other photos are my own.
+
+### Other
+* The wireframes for the project were created using [Balsamiq](https://balsamiq.com/wireframes/desktop/).
+* The mockup of the website in the README.md was created using [Am I Responsive](http://ami.responsivedesign.is/).
